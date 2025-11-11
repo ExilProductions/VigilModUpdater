@@ -181,13 +181,21 @@ namespace VigilModUpdater
             {
                 var uri = new Uri(downloadLink);
                 if (uri.Host != "github.com") return null;
+
                 var parts = uri.AbsolutePath.Trim('/').Split('/');
-                if (parts.Length >= 3)
-                    return $"https://api.github.com/repos/{parts[0]}/{parts[1]}/releases";
+                if (parts.Length < 2) return null;
+
+                string owner = parts[0];
+                string repo = parts[1];
+
+                return $"https://api.github.com/repos/{owner}/{repo}/releases";
             }
-            catch { }
-            return null;
+            catch
+            {
+                return null;
+            }
         }
+
 
         private void RestartGame()
         {
