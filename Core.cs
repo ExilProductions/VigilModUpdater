@@ -1,6 +1,6 @@
 ﻿using MelonLoader;
 
-[assembly: MelonInfo(typeof(VigilModUpdater.Core), "VigilModUpdater", "1.0.0", "Exil_S", null)]
+[assembly: MelonInfo(typeof(VigilModUpdater.Core), "VigilModUpdater", "1.0.1", "Exil_S", null)]
 [assembly: MelonGame("Singularity Studios", "Vigil")]
 
 namespace VigilModUpdater
