@@ -25,4 +25,4 @@ To make your mod compatible with VigilModUpdater:
 
 ## Installation
 
-Place `VigilModUpdater.dll` in your `Plugins` folder. The plugin runs automatically when launching Vigil.
+Place the latest `VigilModUpdater.dll` in releases in your `Plugins` folder.
