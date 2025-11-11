@@ -26,3 +26,7 @@ To make your mod compatible with VigilModUpdater:
 ## Installation
 
 Place the latest `VigilModUpdater.dll` in releases in your `Plugins` folder.
+
+## Development
+
+To build VigilModUpdater from source follow the steps from [Here](https://github.com/ExilProductions/VigilModManager)
